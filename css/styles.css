@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  background-color: #d4707a;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#div-inicio-partida {
+  display: flex;
+  justify-content: center;
+}
+.header-item {
+  display: flex;
+  align-items: center;
+}
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
