@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Mini Damas</title>
   </head>
   <body>
     <header>
-      <div class="header-item"><h1>Mini Damas</h1></div>
-      <div class="header-item"><a href="">Damas</a></div>
-      <div class="header-item"><a href="">¿QUÉ ES?</a></div>
+      <!--tendrá que ser un nav??-->
+      <ul id="navigation-items">
+        <li id="title" class="header-item">Mini Damas</li>
+        <li class="header-item"><a href="">DAMAS</a></li>
+        <li class="header-item"><a href="">¿QUÉ ES?</a></li>
+      </ul>
     </header>
+    <div id="where-am-i">
+      <div><a href="">Mini damas</a></div>
+      <div>/</div>
+      <div>Portada</div>
+    </div>
     <main>
       <table>
         <tr id="row-8" class="row">
@@ -145,9 +153,27 @@
           <td id="row-1-col-8" class="cell light"></td>
         </tr>
       </table>
+      <div id="div-start-match">
+        <button id="start-match">Nueva Partida</button>
+      </div>
     </main>
-    <div id="div-start-match">
-      <button id="start-match">Nueva Partida</button>
+    <div id="damas-explanation">
+      <p>
+        Las <span style="font-weight: bold">damas</span> es un juego de mesa
+        para dos personas en un tablero de 64 cuadros. El juego consiste en
+        mover las fichas en diagonal sobre los cuadros negros con el objetivo de
+        comer las piezas del contrario saltando sobre ellas.
+      </p>
+      <p>
+        Cada jugador dispone de 12 fichas de un mismo color situadas en las
+        casillas negras más próximas a éste. El objetivo del juego es capturar
+        las fichas del oponente o acorralarlas para que no puedan realizar
+        movimientos.
+      </p>
+      <p>
+        Si no conoces las reglas, sigue leyendo cómo se juega en
+        <a href="">Reglas de las damas.</a>
+      </p>
     </div>
   </body>
 </html>

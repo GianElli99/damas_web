@@ -1,20 +1,45 @@
 body {
-  font-family: 'Capriola', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #dddddd;
 }
 header {
   display: flex;
   background-color: #d4707a;
   color: white;
+  height: 53px;
+  justify-content: center;
+  align-items: center;
+}
+#navigation-items {
+  display: flex;
+  width: 1140px;
+  padding: 0;
 }
 main {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  align-items: center;
+  flex-direction: column;
+  margin: 60px 20%;
 }
 a {
-  color: white;
   text-decoration: none;
+  color: white;
+}
+#where-am-i {
+  display: flex;
+  background-color: #f5f5f5;
+  color: black;
+  margin: 20px 20%;
+  border-radius: 4px;
+  padding: 6px;
+}
+#damas-explanation {
+  background-color: #f5f5f5;
+  margin: 20px 20%;
+  border-radius: 4px;
+  padding: 6px;
 }
 #div-start-match {
   display: flex;
@@ -23,7 +48,14 @@ a {
 .header-item {
   display: flex;
   align-items: center;
-  margin: 0px 20px;
+  margin: 0px 25px 0px 0px;
+}
+table {
+  width: 490px;
+  border: 5px solid #999999;
+}
+tbody {
+  border-spacing: 0;
 }
 .cell {
   display: flex;
@@ -31,7 +63,6 @@ a {
   align-items: center;
   height: 60px;
   width: 60px;
-  border: 1px solid black;
 }
 .row {
   display: flex;
@@ -63,4 +94,9 @@ a {
   border-radius: 10px;
   width: 225px;
   height: 50px;
+}
+#title {
+  font-family: 'Capriola', sans-serif;
+  font-size: 22px;
+  font-weight: 200;
 }
