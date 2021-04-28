@@ -21,11 +21,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 60px 20%;
-}
-a {
-  text-decoration: none;
-  color: white;
+  margin: 45px 20% 30px 20%;
 }
 #where-am-i {
   display: flex;
@@ -34,6 +30,10 @@ a {
   margin: 20px 20%;
   border-radius: 4px;
   padding: 6px;
+}
+#where-am-i > div {
+  color: #777777;
+  margin-left: 10px;
 }
 #damas-explanation {
   background-color: #f5f5f5;
@@ -45,24 +45,31 @@ a {
   display: flex;
   justify-content: center;
 }
-.header-item {
+a {
+  text-decoration: none;
+}
+
+header > ul > li {
   display: flex;
   align-items: center;
+}
+.header-item {
   margin: 0px 25px 0px 0px;
+  text-decoration: none;
+  color: white;
 }
 table {
   width: 490px;
   border: 5px solid #999999;
+  border-collapse: collapse;
 }
-tbody {
-  border-spacing: 0;
-}
+
 .cell {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  width: 60px;
+  height: 58px;
+  width: 58px;
 }
 .row {
   display: flex;
@@ -73,7 +80,7 @@ tbody {
   background-color: whitesmoke;
 }
 .dark {
-  background-color: black;
+  background-color: #333333;
 }
 .piece-team-dark {
   background-color: darkgray;
@@ -87,16 +94,30 @@ tbody {
   width: 58px;
   border-radius: 50%;
 }
-#start-match {
+#start-match-button {
   color: white;
-  font-size: 22px;
   background-color: #3d94d1;
   border-radius: 10px;
   width: 225px;
-  height: 50px;
+  height: 52px;
+  margin-top: 20px;
+  font-family: Arial;
+  text-shadow: 0 0 3px #333333;
+  border: 1px solid #84c5f3;
+  background-image: linear-gradient(#57aeea, #3d94d1);
+  box-shadow: 0 0 8px 1px #888888;
+  font-size: 21px;
+  cursor: pointer;
 }
 #title {
   font-family: 'Capriola', sans-serif;
   font-size: 22px;
   font-weight: 200;
+}
+.explanation {
+  margin: 0 0 10px 0;
+  line-height: 1.42;
+}
+#damas-explanation {
+  padding: 10px;
 }
