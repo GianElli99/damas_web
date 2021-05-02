@@ -6,7 +6,10 @@ Es un proyecto que intenta imitar la página web [Mini Damas](https://www.minida
 
 - HTML
 - CSS
-- JS
+
+## Vista Online
+
+Podes ver este proyecto hosteado en [GitHub Pages](https://gianelli99.github.io/damas_web/).
 
 ## Licencia
 
